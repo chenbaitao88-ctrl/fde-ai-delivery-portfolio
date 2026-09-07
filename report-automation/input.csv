@@ -1,0 +1,13 @@
+case_id,group,eligible,status,minutes
+SYN-01,A,yes,complete,11
+SYN-02,A,yes,complete,12
+SYN-03,A,yes,complete,13
+SYN-04,A,yes,pending,14
+SYN-05,B,yes,complete,15
+SYN-06,B,yes,complete,16
+SYN-07,B,yes,pending,17
+SYN-08,B,no,pending,18
+SYN-09,C,yes,complete,19
+SYN-10,C,yes,complete,20
+SYN-11,C,yes,complete,21
+SYN-12,C,yes,complete,22

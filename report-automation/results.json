@@ -1,0 +1,31 @@
+{
+  "kind": "executed synthetic calculation",
+  "summary": {
+    "input_count": 12,
+    "excluded_count": 1,
+    "eligible": 11,
+    "complete": 9,
+    "rate_percent": 81.8,
+    "groups": {
+      "A": {
+        "eligible": 4,
+        "complete": 3,
+        "rate_percent": 75.0
+      },
+      "B": {
+        "eligible": 3,
+        "complete": 2,
+        "rate_percent": 66.7
+      },
+      "C": {
+        "eligible": 4,
+        "complete": 4,
+        "rate_percent": 100.0
+      }
+    }
+  },
+  "missing_field_demo": {
+    "status": "BLOCKED",
+    "reason": "missing required field"
+  }
+}
