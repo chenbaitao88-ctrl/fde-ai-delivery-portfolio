@@ -1,0 +1,155 @@
+{
+  "date": "2026-09-07",
+  "artifacts": [
+    {
+      "file": "report-automation/sample-report.pdf",
+      "source_kind": "authorized_historical_report_brand_redacted",
+      "sha256": "634a863b6cb74db1070f292b9c7aa8f806afb81c94779a336c49763b5990f486",
+      "bytes": 2573474
+    },
+    {
+      "file": "report-automation/previews/cover.png",
+      "source_kind": "render_of_public_report",
+      "sha256": "55a161a6841867b35abd7c4ebf2922566df254c4c3709cda8d3df7dbe9e44992",
+      "bytes": 499076
+    },
+    {
+      "file": "report-automation/previews/contents.png",
+      "source_kind": "render_of_public_report",
+      "sha256": "f773fa20d5a6acf9fb2cb42e9c670fb2468051f790c795e4550aa77744d196d6",
+      "bytes": 168184
+    },
+    {
+      "file": "report-automation/previews/contents-continued.png",
+      "source_kind": "render_of_public_report",
+      "sha256": "9f154b875bb44e145c6c47127496033a18f8b0f3699aec222349c7b89f5697c4",
+      "bytes": 124882
+    },
+    {
+      "file": "report-automation/previews/analysis.png",
+      "source_kind": "render_of_public_report",
+      "sha256": "597abcd1287f3b37966e2b542bb494cf18a2f9c08ef455bec1c334c936640ed5",
+      "bytes": 335319
+    },
+    {
+      "file": "report-automation/previews/class-comparison.png",
+      "source_kind": "render_of_public_report",
+      "sha256": "759af3ee2cf1a0b85ab6ef1b9d6a0085910f21d69dca247fd03c9fee7e87ce05",
+      "bytes": 292670
+    },
+    {
+      "file": "report-automation/previews/level-distribution.png",
+      "source_kind": "render_of_public_report",
+      "sha256": "1d9fbc076b9b1f5e9eb1f1267e035d910dcab875727c0e6d7d6b1ea80a2dbcbb",
+      "bytes": 267515
+    },
+    {
+      "file": "report-automation/previews/conclusion.png",
+      "source_kind": "render_of_public_report",
+      "sha256": "2ca836475d5142eec92e6937ad37f0f20b32cbaf8a207208bfa5a942fc70b3e6",
+      "bytes": 464381
+    },
+    {
+      "file": "human-in-the-loop-review/screenshots/dashboard.png",
+      "source_kind": "original_app_local_synthetic_run",
+      "sha256": "ba5b885a9d53154942f8cf2156ff35408971ae7c88ea595c60bb79e9e03956ce",
+      "bytes": 49281
+    },
+    {
+      "file": "human-in-the-loop-review/screenshots/materials.png",
+      "source_kind": "original_app_local_synthetic_run",
+      "sha256": "463de6fe51ea79d9da7e5bd64d2a65181aba6cf7b15651412009a867e643f12e",
+      "bytes": 35768
+    },
+    {
+      "file": "human-in-the-loop-review/screenshots/score.png",
+      "source_kind": "original_app_local_synthetic_run",
+      "sha256": "c61b7b81a6ee9c808d97f04638b6dba1a66395f9f16933be517979b7f93ca519",
+      "bytes": 46098
+    },
+    {
+      "file": "human-in-the-loop-review/screenshots/review.png",
+      "source_kind": "original_app_local_synthetic_run",
+      "sha256": "1d36d9817400f7463841ddbc84a79fd670b42fd83c6cddd9d8b6bf02e9778ac8",
+      "bytes": 46986
+    },
+    {
+      "file": "human-in-the-loop-review/screenshots/locked.png",
+      "source_kind": "original_app_local_synthetic_run",
+      "sha256": "61b69a2a2f31b40603bc5eda2f8625476b5ce041f8c794c19453657ac0077ddb",
+      "bytes": 61095
+    },
+    {
+      "file": "human-in-the-loop-review/screenshots/retry.png",
+      "source_kind": "original_app_local_synthetic_run",
+      "sha256": "065788bced11bd347922c238b36995d8f2786acf766aa3486cb45d7e63c24597",
+      "bytes": 42553
+    },
+    {
+      "file": "human-in-the-loop-review/screenshots/results.png",
+      "source_kind": "original_app_local_synthetic_run",
+      "sha256": "635d086f415597b9875ed76a9e916a242be816632ac030a29de80f6873737722",
+      "bytes": 53737
+    },
+    {
+      "file": "human-in-the-loop-review/exports/scoring-summary.xlsx",
+      "source_kind": "original_app_export_synthetic_data",
+      "sha256": "de839cfe2927fe887eb0e11ba8abcc2c6d6ef0b11823760aac0ee07669b93c2f",
+      "bytes": 7208
+    },
+    {
+      "file": "report-automation/supplemental-demo.md",
+      "source_kind": "retained_small_teaching_example",
+      "sha256": "b60505b199c82969b9340c70bd857235a722cd4f90857ed79bbcb4b7035f60e6",
+      "bytes": 4258
+    },
+    {
+      "file": "human-in-the-loop-review/screenshots/result-rows.png",
+      "source_kind": "original_app_local_synthetic_run",
+      "sha256": "f4bb60b7d38bc66e43e32aedfe7f0a1a4b20b09f6b47045f79ff6ae32cf750ea",
+      "bytes": 62725
+    },
+    {
+      "file": "human-in-the-loop-review/exports/authoritative-result.json",
+      "source_kind": "original_authoritative_api_response_unchanged",
+      "sha256": "1207cfa951e6e52e34538dee42d2b1fec3653e3bf9a4a4467c305fb47794205d",
+      "bytes": 969
+    },
+    {
+      "file": "human-in-the-loop-review/exports/unresolved-blocked.json",
+      "source_kind": "original_authoritative_api_409_response_unchanged",
+      "sha256": "2464c33863d4f1b2cdb31ce23e1f7d6f5e9b9a55de818d79dd421219c8faa048",
+      "bytes": 238
+    },
+    {
+      "file": "human-in-the-loop-review/screenshots/live-before.png",
+      "source_kind": "original_app_same_case_actual_operation",
+      "sha256": "341511e270e6887bf2c779de5e36b0d203c4929e02d46bce51081b13bca2fae7",
+      "bytes": 48644
+    },
+    {
+      "file": "human-in-the-loop-review/screenshots/live-adopted-locked.png",
+      "source_kind": "original_app_same_case_actual_operation",
+      "sha256": "37109684e6cc1b954c04cd941f7570f8944a9bd5fa77b4e7f41e5b98d0f2c8f3",
+      "bytes": 57939
+    },
+    {
+      "file": "human-in-the-loop-review/screenshots/live-resolved.png",
+      "source_kind": "original_app_same_case_actual_operation",
+      "sha256": "d6d11c8c8803ca23888c02eb6849115b3fae2df82480a9ab19e2da367afdf23a",
+      "bytes": 45681
+    },
+    {
+      "file": "human-in-the-loop-review/run-evidence.json",
+      "source_kind": "same_case_whitelisted_trace_or_exact_field_summary",
+      "sha256": "ad8da978c94378a3b82034696be8246b92de755bb3a71f00a604df35307b8ca8",
+      "bytes": 5805
+    },
+    {
+      "file": "human-in-the-loop-review/authoritative-result.md",
+      "source_kind": "same_case_whitelisted_trace_or_exact_field_summary",
+      "sha256": "ec2d1ff1c898c5695fb1360a470172974889fdfda12c17986e90e4ceecae45e2",
+      "bytes": 2048
+    }
+  ]
+}

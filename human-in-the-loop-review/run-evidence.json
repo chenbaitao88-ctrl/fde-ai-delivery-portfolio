@@ -1,0 +1,186 @@
+{
+  "task_id": "169a6495-c6e8-4d85-a1f9-1724cb720858",
+  "item_id": "b6dbe0e6-4019-4c52-b9a1-20460056f3f3",
+  "case_id": "22a77d3c-b733-431b-be9b-9df5406f8b9d",
+  "attempt_id": "21b11e58-36ea-4a92-bdd7-9883d3339249",
+  "snapshot_id": "1f3e838d-5e99-4c78-a518-c62f9285c036",
+  "validation_id": "3e35f784-98e1-4b93-b09e-df97243759af",
+  "team_code": "DEMO-P-001",
+  "provider_calls": 0,
+  "score_source": "original synthetic demo preset, copied into new immutable records",
+  "total_score": 92.0,
+  "trace": [
+    {
+      "at": "2026-09-07T11:33:11.056537+00:00",
+      "action": "ScoringTaskCreator.create_scoring_task",
+      "task_status": "pending",
+      "item_status": "pending",
+      "stage": "score",
+      "task_revision": 1,
+      "item_revision": 1
+    },
+    {
+      "at": "2026-09-07T11:33:11.061904+00:00",
+      "action": "PipelineTaskManager.start_task",
+      "task_status": "running",
+      "item_status": "pending",
+      "stage": "score",
+      "task_revision": 2,
+      "item_revision": 1
+    },
+    {
+      "at": "2026-09-07T11:33:11.068805+00:00",
+      "action": "PipelineTaskManager.start_item_stage",
+      "task_status": "running",
+      "item_status": "running",
+      "stage": "score",
+      "task_revision": 3,
+      "item_revision": 2
+    },
+    {
+      "at": "2026-09-07T11:33:11.077714+00:00",
+      "action": "PipelineTaskManager.complete_scoring_item_stage: preseeded synthetic score",
+      "task_status": "running",
+      "item_status": "pending",
+      "stage": "review",
+      "task_revision": 4,
+      "item_revision": 3
+    },
+    {
+      "at": "2026-09-07T11:33:11.079092+00:00",
+      "action": "ReviewCaseStore.create_review_case",
+      "task_status": "running",
+      "item_status": "pending",
+      "stage": "review",
+      "task_revision": 4,
+      "item_revision": 3
+    }
+  ],
+  "final_case_status": "resolved",
+  "completion_trace": [
+    {
+      "at": "2026-09-07T11:37:10.731548+00:00",
+      "operation": "POST derive",
+      "status": 409,
+      "file": "success-case-locked-unresolved.json",
+      "sha256": "2464c33863d4f1b2cdb31ce23e1f7d6f5e9b9a55de818d79dd421219c8faa048"
+    },
+    {
+      "at": "2026-09-07T11:37:10.731796+00:00",
+      "operation": "ReviewCaseStore.transition_review_case",
+      "status": "in_review",
+      "event": "REVIEW_STARTED",
+      "case_revision": 2
+    },
+    {
+      "at": "2026-09-07T11:37:10.732916+00:00",
+      "operation": "ReviewCaseStore.transition_review_case",
+      "status": "resolved",
+      "event": "CASE_RESOLVED",
+      "case_revision": 3
+    },
+    {
+      "at": "2026-09-07T11:37:10.736269+00:00",
+      "operation": "POST derive",
+      "status": 200,
+      "file": "authoritative-result.json",
+      "sha256": "1207cfa951e6e52e34538dee42d2b1fec3653e3bf9a4a4467c305fb47794205d"
+    }
+  ],
+  "operations": [
+    {
+      "operation": "create_review_decision",
+      "http_status": 201,
+      "at": "2026-09-07T11:34:53.726443Z",
+      "decision_id": "dec-idem-22a77d3c-b733-431b-be9b-9df5406f8b9d-0"
+    },
+    {
+      "operation": "apply_review_decision",
+      "http_status": 200,
+      "adoption_id": "adp-dec-idem-22a77d3c-b733-431b-be9b-9df5406f8b9d-0",
+      "status": "adopted",
+      "time_source": "server access log order; adoption timestamp is original decision time"
+    },
+    {
+      "operation": "lock_final_result",
+      "http_status": 201,
+      "at": "2026-09-07T11:35:53.728777Z",
+      "lock_id": "flk-lreq-1788780953722"
+    }
+  ],
+  "review_events": [
+    {
+      "event_type": "CASE_OPENED",
+      "occurred_at": "2026-09-07T11:33:11.069898Z",
+      "from_status": null,
+      "to_status": "open",
+      "case_revision_before": 1,
+      "case_revision_after": 1,
+      "object_refs": [
+        "22a77d3c-b733-431b-be9b-9df5406f8b9d"
+      ]
+    },
+    {
+      "event_type": "DECISION_RECORDED",
+      "occurred_at": "2026-09-07T11:34:53.726443Z",
+      "from_status": null,
+      "to_status": null,
+      "case_revision_before": 1,
+      "case_revision_after": 1,
+      "object_refs": [
+        "dec-idem-22a77d3c-b733-431b-be9b-9df5406f8b9d-0"
+      ]
+    },
+    {
+      "event_type": "ADOPTION_LINKED",
+      "occurred_at": "2026-09-07T11:34:53.726443Z",
+      "from_status": null,
+      "to_status": null,
+      "case_revision_before": 1,
+      "case_revision_after": 1,
+      "object_refs": [
+        "adp-dec-idem-22a77d3c-b733-431b-be9b-9df5406f8b9d-0",
+        "1f3e838d-5e99-4c78-a518-c62f9285c036"
+      ]
+    },
+    {
+      "event_type": "FINAL_RESULT_LOCKED",
+      "occurred_at": "2026-09-07T11:35:53.728777Z",
+      "from_status": null,
+      "to_status": null,
+      "case_revision_before": 1,
+      "case_revision_after": 1,
+      "object_refs": [
+        "flk-lreq-1788780953722",
+        "adp-dec-idem-22a77d3c-b733-431b-be9b-9df5406f8b9d-0"
+      ]
+    },
+    {
+      "event_type": "REVIEW_STARTED",
+      "occurred_at": "2026-09-07T11:37:10.731796Z",
+      "from_status": "open",
+      "to_status": "in_review",
+      "case_revision_before": 1,
+      "case_revision_after": 2,
+      "object_refs": [
+        "22a77d3c-b733-431b-be9b-9df5406f8b9d",
+        "dec-idem-22a77d3c-b733-431b-be9b-9df5406f8b9d-0",
+        "adp-dec-idem-22a77d3c-b733-431b-be9b-9df5406f8b9d-0"
+      ]
+    },
+    {
+      "event_type": "CASE_RESOLVED",
+      "occurred_at": "2026-09-07T11:37:10.732916Z",
+      "from_status": "in_review",
+      "to_status": "resolved",
+      "case_revision_before": 2,
+      "case_revision_after": 3,
+      "object_refs": [
+        "22a77d3c-b733-431b-be9b-9df5406f8b9d",
+        "dec-idem-22a77d3c-b733-431b-be9b-9df5406f8b9d-0",
+        "adp-dec-idem-22a77d3c-b733-431b-be9b-9df5406f8b9d-0"
+      ]
+    }
+  ],
+  "scope": "new scoring task created from original synthetic P001 source; preset score facts only; no source business code changes"
+}

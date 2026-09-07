@@ -1,29 +1,16 @@
-# 企业 AI 应用交付｜项目案例集
+# 企业 AI 应用交付项目
 
-将业务规则、AI 辅助处理和人工验收组织成可交付的工作流。
+两个来自实际工作的应用：将业务表格转化为测评报告，以及把作品材料、AI 辅助评价与人工评审组织成工作台。
 
-我负责需求与业务规则、AI 辅助开发推进、交付验收及用户培训。两个项目均起于教育业务中的实际工作：报告生产与作品评审。这里用原创说明和全新合成材料展示处理方法，方便快速了解项目。
+我负责需求与业务规则、AI 辅助开发推进、交付验收和用户培训。报告系统历次迭代累计支持约50份完整报告正式使用，评审系统累计用于约2000份作品评审；累计规模按本人业务回顾记录，当前展示版本不单独承担这些累计结果。
 
-| 案例 | 30 秒看重点 | 3 分钟看结果 | 深入阅读 |
-|---|---|---|---|
-| **报告自动化** | 从表格到有依据的报告，保持筛选、分母、图文和验收一致 | [输入、统计、图表与交付示意](report-automation/README.md) | [合成计算脚本](report-automation/demo.py) · [验证结果](report-automation/results.json) |
-| **人机协同评审** | 将异常送入复核，保留评分尝试，保护人工确认结果 | [案例卡与状态流程](human-in-the-loop-review/README.md) | [12 个合成案例](human-in-the-loop-review/cases.md) · [机制与证据](human-in-the-loop-review/evidence.md) |
+| 项目 | 直接查看成果 | 展示内容 |
+|---|---|---|
+| **业务报告自动化** | [报告关键页](report-automation/README.md) · [完整26页 PDF](report-automation/sample-report.pdf) | 原系统历史成品的脱敏副本，包含目录、统计图表、章节解读与结论 |
+| **人机协同 AI 评审** | [原应用截图与操作记录](human-in-the-loop-review/README.md) · [同案权威结果](human-in-the-loop-review/authoritative-result.md) | 原应用在本机加载合成数据后的真实画面、同案复核、采用、锁定和权威结果 JSON |
 
-![两个项目的交付流程示意](assets/portfolio-map.png)
+<table><tr><td width="50%"><a href="report-automation/README.md"><img src="report-automation/previews/analysis.png" alt="报告原成品中的统计图表和解读" width="430"></a></td><td width="50%"><a href="human-in-the-loop-review/README.md"><img src="human-in-the-loop-review/screenshots/results.png" alt="原评分应用的结果导出界面，内容为合成数据" width="600"></a></td></tr></table>
 
-## 与企业应用交付的联系
+报告采用确定性统计、图表生成、LLM 解读和文档验收的分工；评审应用采用 React/TypeScript、FastAPI 和 SQLite，记录材料、评分版本及人工决定。完整业务系统继续保留在私有仓库。
 
-这组案例可以用于讨论办公文档处理、规则驱动工作流、本地部署验收及非技术用户启用：先确定输入和规则，再组织处理步骤，最后验证结果能否交付和使用。
-
-## 个人职责与实现方式
-
-- 明确业务对象、统计与评价规则，将要求拆成流程和验收条件。
-- 使用 AI 编程工具推进应用实现，结合样例、规则检查与人工复核确认结果。
-- 在实际使用中发现规格偏差，组织修正、验收和操作说明。
-- 面向业务人员设计培训、演示和使用反馈收集。
-
-## 阅读范围
-
-本仓库是项目案例展示。报告页的小型计算脚本可独立运行；两个原业务系统的完整代码、数据与运行环境不在本仓库中。图示为本次原创示意；报告统计来自本仓库脚本实际执行，评审卡片为本次预设的合成情形。
-
-业务累计规模由项目负责人确认；耗时为使用经验估计。合成演示、软件测试与模型效果分别记录。详见 [来源与验证范围](EVIDENCE.md)。
+[来源、公开范围与本次验证](EVIDENCE.md)
