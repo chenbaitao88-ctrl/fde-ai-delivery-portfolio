@@ -1,5 +1,5 @@
 {
-  "date": "2026-09-07",
+  "date": "2026-09-08",
   "artifacts": [
     {
       "file": "report-automation/sample-report.pdf",
@@ -100,8 +100,8 @@
     {
       "file": "report-automation/supplemental-demo.md",
       "source_kind": "retained_small_teaching_example",
-      "sha256": "b60505b199c82969b9340c70bd857235a722cd4f90857ed79bbcb4b7035f60e6",
-      "bytes": 4258
+      "sha256": "75e05150e9b389363e15f42054d59b80548b6373ffa9e65d80f76041a234bb52",
+      "bytes": 4255
     },
     {
       "file": "human-in-the-loop-review/screenshots/result-rows.png",
@@ -148,8 +148,68 @@
     {
       "file": "human-in-the-loop-review/authoritative-result.md",
       "source_kind": "same_case_whitelisted_trace_or_exact_field_summary",
-      "sha256": "ec2d1ff1c898c5695fb1360a470172974889fdfda12c17986e90e4ceecae45e2",
-      "bytes": 2048
+      "sha256": "675356ab816e51bacd38942b6b4eaf5e12e26381159cfb7d4a37fc0db44b2833",
+      "bytes": 2045
+    },
+    {
+      "file": "assets/delivery-overview-v2.png",
+      "source_kind": "original_diagram_project_design_not_runtime_screenshot",
+      "sha256": "f9b3f399278bda1c69094906a48a7de213ead79fc49b127c39383f178c25752d",
+      "bytes": 133489
+    },
+    {
+      "file": "assets/delivery-overview-v2.svg",
+      "source_kind": "original_diagram_project_design_not_runtime_screenshot",
+      "sha256": "21337272a63c89aa7bb7c758e6bbdeaa83cd837e7f468e67ad6b436ebf410900",
+      "bytes": 4042
+    },
+    {
+      "file": "assets/enablement-loop-v2.png",
+      "source_kind": "original_diagram_project_design_not_runtime_screenshot",
+      "sha256": "a81ae64cddf6f58af54562e55d73ef52a8acb343fd857b4cbecfee52d3865358",
+      "bytes": 129791
+    },
+    {
+      "file": "assets/enablement-loop-v2.svg",
+      "source_kind": "original_diagram_project_design_not_runtime_screenshot",
+      "sha256": "c0280a11e73a17e5f6de80fe7e18e9b512846ea7b4316f9ed3788f6f4738a8ad",
+      "bytes": 4053
+    },
+    {
+      "file": "assets/report-workflow-v2.png",
+      "source_kind": "original_diagram_project_design_not_runtime_screenshot",
+      "sha256": "a4864419a974adf4754f7e2e6464af69c323c84457c78c113e7c4dd66d42344a",
+      "bytes": 172433
+    },
+    {
+      "file": "assets/report-workflow-v2.svg",
+      "source_kind": "original_diagram_project_design_not_runtime_screenshot",
+      "sha256": "80703e2e7e2c954d977eb96316672d2a8c6acdaabd54dd305a18666ec817fa66",
+      "bytes": 4767
+    },
+    {
+      "file": "assets/review-workflow-v2.png",
+      "source_kind": "original_diagram_project_design_not_runtime_screenshot",
+      "sha256": "5ccc8970742680eeb3e1840f267cf1f1b7bd780711a3d39665eeba3edf449cee",
+      "bytes": 233245
+    },
+    {
+      "file": "assets/review-workflow-v2.svg",
+      "source_kind": "original_diagram_project_design_not_runtime_screenshot",
+      "sha256": "b789d81b1edc209e74d52a2e874ae6db616f26453a0f2ce734422a59bfd4b11a",
+      "bytes": 7587
+    },
+    {
+      "file": "assets/system-architecture.png",
+      "source_kind": "original_diagram_project_design_not_runtime_screenshot",
+      "sha256": "0d76e54b87b403dd3759fd93fbbeb4f25ab19d2550782d0374535fbe13ed5012",
+      "bytes": 188950
+    },
+    {
+      "file": "assets/system-architecture.svg",
+      "source_kind": "original_diagram_project_design_not_runtime_screenshot",
+      "sha256": "7efbc4d0f7aa2b2ba633efba5fb3ca18ab3e5baee847490c2557e6aff185e92f",
+      "bytes": 5923
     }
   ]
 }

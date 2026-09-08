@@ -1,6 +1,6 @@
 # 同案权威结果 JSON 摘要
 
-以下字段直接对应[原接口 JSON](exports/authoritative-result.json)。分数源于纯合成预置；本次实际完成采用、锁定和结案，不代表真实模型评分。
+以下字段直接对应[接口 JSON](exports/authoritative-result.json)。分数源于纯合成预置；本次实际完成采用、锁定和结案，不代表真实模型评分。
 
 | JSON 字段 | 返回值 |
 |---|---|
